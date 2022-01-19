@@ -1,0 +1,124 @@
+.main {
+    display: flex;
+    margin-top: 70px;
+    height:75vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.calc {
+    flex-flow: row wrap;
+    border: 1px solid black;
+    height: 65vh;
+    width: 25vw;
+    border-radius: 25px;
+    padding: 30px;
+    justify-content: center;
+    background-color: gainsboro;
+}
+.screen {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    height:12vh;
+    flex-basis: 100%;
+    background-color: ghostwhite;
+    font-size: 40px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+.display{
+    padding: 10px;
+    overflow: auto;
+    flex-basis: 100%;
+    text-align: right;
+}
+.upper{
+    align-self: flex-start;
+    font-size: 20px;
+    flex-basis: 100%;
+    margin-right: 10px;
+    overflow: auto;
+    text-align: right;
+}
+.firstButtons{
+    display: flex;
+    height:5vh;
+    flex-basis: 100%;
+    margin-top: 30px;
+}
+.clear{
+    flex-basis: 50%;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: rgb(248, 129, 129)
+}
+.delete {
+    flex-basis: 50%;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 228);
+}
+.restButtons{
+    margin-top: 10px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+}
+.firstRow{
+    flex-basis: 22%;
+    height: 10vh;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.secondRow{
+    flex-basis: 22%;
+    height: 10vh;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.thirdRow{
+    flex-basis: 22%;
+    height: 10vh;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.fourthRow{
+    flex-basis: 22%;
+    height: 10vh;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.hover {
+        box-shadow: 0 0 15px rgba(33,33,33,.2); 
+}
+#footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: 450;
+}
+#div{
+color:blue;
+font-size: 30px;
+}
+#multi{
+    color:red;
+    font-size: 25px;
+}
+#plus{
+    color:purple;
+    font-size: 30px;
+}
+#minus{
+    color:green;
+    font-size: 40px;
+}
